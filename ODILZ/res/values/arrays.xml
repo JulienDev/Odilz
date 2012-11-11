@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="place_navigation">
+        <item>Présentation</item>
+        <item>Photos</item>   
+        <item>Transport</item>
+        <item>Evenements</item>
+        <item>Horaires</item>
+        <item>Commentaires</item>
+    </string-array>
+</resources>

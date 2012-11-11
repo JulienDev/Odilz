@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.cyrilmottier.polaris.PolarisMapView
+        android:id="@+id/polaris_map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:apiKey="0aZG3J-qvklV4eNyTERVtY5TA7kKd7KE99nKauQ" />
+
+</LinearLayout>

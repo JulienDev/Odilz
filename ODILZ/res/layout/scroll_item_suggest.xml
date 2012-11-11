@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="140dp" >
+
+    <ImageView
+        android:id="@+id/suggest_image"
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/place_name"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/suggest_description"
+        android:background="#CCffffff"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="Hotel Les Acacias"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/suggest_description"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#CCffffff"
+        android:ellipsize="end"
+        android:lines="2"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="Nous Avons Le Plaisir De Vous Accueillir Dans Un Cadre Chaleureux. Notre Établissement Possède Des Chambres Toutes Aussi Confortables Que Calmes, Équipées De Bain Ou Douche, Toilettes, Sèche-cheveux"
+        android:textColor="#000000"
+        android:textSize="11sp" />
+
+<!--     <CheckBox -->
+<!--         android:id="@+id/suggest_bookmark" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_alignParentLeft="true" -->
+<!--         android:background="@drawable/bookmark" -->
+<!--         android:button="@null" -->
+<!--         android:focusable="false" /> -->
+
+    <View
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/scroll_item_suggest_shadow" />
+
+</RelativeLayout>

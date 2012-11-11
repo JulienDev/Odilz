@@ -1,0 +1,55 @@
+<resources>
+
+    <string name="app_name">ODILZ</string>
+
+    <!-- Url -->
+    <string name="server_data">http://10.45.20.175:3000</string>
+    <string name="server_weather_images">http://www.meteorologic.net/pictos/</string>
+
+    <!-- Search -->
+    <string name="search">Fais moi rêver</string>
+    <string name="search_hobbies">Centres d\'interêt</string>
+    <string name="search_in_progress">Recherche en cours, veuillez patienter</string>
+    <string name="search_nothing_selected">Veuillez selectionner au moins un centre d\'interêt</string>
+    <string name="search_range">Distance</string>
+    <string name="search_weather">Météo</string>
+    <string name="search_bad_weather">Attention, les prévisions météo ne sont pas favorables</string>
+
+    <!-- About -->
+    <string name="about">A propos</string>
+    <string name="about_find_us_on_naonod_com">Retrouvez-nous sur Naonod.com</string>
+    <string name="about_application_mobile_design">Application mobile &amp; Design</string>
+    <string name="about_julien"><font size="15">Julien Vermet</font><font size="11"> (ju.vermet@gmail.com)</font></string>
+    <string name="about_email_julien">ju.vermet@gmail.com</string>
+    <string name="about_website">Site internet</string>
+    <string name="about_thomas"><font size="15">Thomas Belin</font><font size="11"> (ThomasBelin4@gmail.com)</font></string>
+    <string name="about_email_thomas">ThomasBelin4@gmail.com</string>
+    <string name="about_backend">Backend</string>
+    <string name="about_arzhel"><font size="15">Arzhel Younsi</font>\n<font size="11">(xionox@gmail.com)</font></string>
+    <string name="about_email_arzhel">xionox@gmail.com</string>
+    <string name="about_dimitri"><font size="15">Dimitri Pertin</font>\n<font size="11">    (pertin.dimitri@gmail.com)</font></string>
+    <string name="about_email_dimitri">jeremy.dagorn@gmail.com</string>
+    <string name="about_contest">Application réalisée dans le cadre du concours</string>
+    <string name="about_nod_url">http://bemyapp.com/opentourisme/</string>
+    <string name="about_write_us">Nous écrire</string>
+    <string name="about_and_amp">&amp;</string>
+
+    <!-- Suggest -->
+    <string name="suggest">Suggestions</string>
+    <string name="map">Voir sur la carte</string>
+    <string name="list">Retour à la liste</string>
+
+    <!-- Place -->
+    <string name="place_contacts">Coordonnées</string>
+    <string name="place_description">Description</string>
+    <string name="place_bookmark">Marque-Page</string>
+    <string name="place_share">Partager</string>
+    <string name="place_share_subject">Lieu à découvrir</string>
+    <string name="place_share_via">Partager avec</string>
+    <string name="place_nothing_found">Aucune activité n\'a été trouvé dans cette catégorie</string>
+
+    <!-- Other -->
+    <string name="soon">Revenez bientot :)</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+
+</resources>

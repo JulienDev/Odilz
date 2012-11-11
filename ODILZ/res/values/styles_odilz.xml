@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <style name="Theme.odilz" parent="@style/Theme.Sherlock.Light.DarkActionBar">
+        <item name="actionBarItemBackground">@drawable/selectable_background_odilz</item>
+        <item name="popupMenuStyle">@style/odilz_PopupMenu</item>
+        <item name="dropDownListViewStyle">@style/odilz_DropDownListView</item>
+        <item name="actionBarTabStyle">@style/odilz_ActionBarTabStyle</item>
+        <item name="actionDropDownStyle">@style/odilz_DropDownNav</item>
+        <item name="actionBarStyle">@style/odilz_solid_ActionBar</item>
+
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_odilz</item>
+        <item name="android:popupMenuStyle">@style/odilz_PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/odilz_DropDownListView</item>
+        <item name="android:actionBarTabStyle">@style/odilz_ActionBarTabStyle</item>
+        <item name="android:actionDropDownStyle">@style/odilz_DropDownNav</item>
+        <item name="android:actionBarStyle">@style/odilz_solid_ActionBar</item>
+        <item name="android:panelBackground">@drawable/menu_hardkey_panel_odilz</item>
+        
+                <!-- Light.DarkActionBar specific -->
+        <item name="actionBarWidgetTheme">@style/Theme.odilz.widget</item>
+        <item name="android:actionBarWidgetTheme">@style/Theme.odilz.widget</item>
+        
+            <item name="android:editTextStyle">@style/EditTextOdilz</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewOdilz</item>
+
+    <item name="android:checkboxStyle">@style/CheckBoxOdilz</item>
+
+    <item name="android:radioButtonStyle">@style/RadioButtonOdilz</item>
+
+    <item name="android:buttonStyle">@style/ButtonOdilz</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonOdilz</item>
+
+    <item name="android:spinnerStyle">@style/SpinnerOdilz</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/SpinnerOdilz.DropDown</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemOdilz</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarOdilz</item>
+
+<!--     <item name="android:seekBarStyle">@style/SeekBarOdilz</item> -->
+
+    <item name="android:ratingBarStyle">@style/RatingBarOdilz</item>
+
+    <item name="android:ratingBarStyleIndicator">@style/RatingBarBigOdilz</item>
+
+    <item name="android:ratingBarStyleSmall">@style/RatingBarSmallOdilz</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleOdilz</item>
+
+    <item name="android:listViewStyle">@style/ListViewOdilz</item>
+
+    <item name="android:listViewWhiteStyle">@style/ListViewOdilz.White</item>
+
+    <item name="android:spinnerItemStyle">@style/SpinnerItemOdilz</item>
+
+    </style>
+
+    <style name="odilz_solid_ActionBar" parent="@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/ab_solid_odilz</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_odilz</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_odilz</item>
+        <item name="progressBarStyle">@style/odilz_ProgressBar</item>
+
+        <item name="android:background">@drawable/ab_solid_odilz</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_odilz</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_odilz</item>
+        <item name="android:progressBarStyle">@style/odilz_ProgressBar</item>
+    </style>
+
+    <style name="odilz_transparent_ActionBar" parent="@style/Widget.Sherlock.ActionBar">
+        <item name="background">@drawable/ab_transparent_odilz</item>
+        <item name="progressBarStyle">@style/odilz_ProgressBar</item>
+        
+        <item name="android:background">@drawable/ab_transparent_odilz</item>
+        <item name="android:progressBarStyle">@style/odilz_ProgressBar</item>
+    </style>
+	
+    <style name="odilz_PopupMenu" parent="@style/Widget.Sherlock.ListPopupWindow">	
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_odilz</item>	
+    </style>
+	
+    <style name="odilz_DropDownListView" parent="@style/Widget.Sherlock.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_odilz</item>
+    </style>
+
+    <style name="odilz_ActionBarTabStyle" parent="@style/Widget.Sherlock.ActionBar.TabView">
+        <item name="background">@drawable/tab_indicator_ab_odilz</item>
+
+        <item name="android:background">@drawable/tab_indicator_ab_odilz</item>
+    </style>
+	
+    <style name="odilz_DropDownNav" parent="@style/Widget.Sherlock.Spinner.DropDown.ActionBar">
+        <item name="background">@drawable/spinner_background_ab_odilz</item>
+
+        <item name="android:background">@drawable/spinner_background_ab_odilz</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_odilz</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_odilz</item>
+    </style>
+    
+    <style name="odilz_ProgressBar" parent="@style/Widget.Sherlock.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_odilz</item>
+    </style>
+    
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.odilz.widget" parent="@style/Theme.Sherlock">
+        <item name="popupMenuStyle">@style/odilz_PopupMenu</item>
+        <item name="dropDownListViewStyle">@style/odilz_DropDownListView</item>
+        
+        <item name="android:popupMenuStyle">@style/odilz_PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/odilz_DropDownListView</item>
+    </style>
+
+</resources>
